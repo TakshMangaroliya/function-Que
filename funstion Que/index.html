@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //Q1- factorial number . 
+    // function fac(n) {
+    //     if (n === 0 || n === 1) {
+    //         return 1;
+    //     } else {
+    //         return n * fac(n - 1);
+    //     }
+    // }
+
+    // console.log(fac(5));
+
+    //Q2- fibnocci series .
+    // function fibonacciSeries(n) {
+    //     let a = 0, b = 1, result = [];
+
+    //     for (let i = 0; i < n; i++) {
+    //         result.push(a);
+    //         let next = a + b;
+    //         a = b;
+    //         b = next;
+    //     }
+
+    //     return result;
+    // }
+
+    // console.log(fibonacciSeries(10));
+
+
+    //Q3- prime fact .
+    // function findPrimeFactors(a) {
+    //     let c = 2;
+
+    //     console.log(`Prime factors of ${a}:`);
+    //     while (a > 1) {
+    //         if (a % c === 0) {
+    //             console.log(c);
+    //             a = a / c;
+    //         } else {
+    //             c++;
+    //         }
+    //     }
+    // }
+
+
+    // let number = Number(prompt("Enter the number:"));
+    // findPrimeFactors(number);
+
+
+    //Q4- prime number .
+    // function isPalindromeNumber(n) {
+    //     let originalNumber = n;
+    //     let reversedNumber = 0;
+
+
+    //     while (n > 0) {
+    //         let remainder = n % 10;
+    //         reversedNumber = reversedNumber * 10 + remainder;
+    //         n = Math.floor(n / 10);
+    //     }
+
+
+    //     if (originalNumber === reversedNumber) {
+    //         console.log(`This is a palindrome number: ${reversedNumber}`);
+    //     } else {
+    //         console.log(`This is not a palindrome number: ${originalNumber}`);
+    //     }
+    // }
+
+    // let number = Number(prompt("Enter the number:"));
+    // isPalindromeNumber(number);
+
+
+    //Q5- pelindrome 
+    // function checkPalindrome(n) {
+    //     let A1 = n;
+    //     let rev = 0;
+
+        
+    //     while (n > 0) {
+    //         let rem = n % 10;
+    //         rev = rev * 10 + rem;
+    //         n = Math.floor(n / 10);
+    //     }
+
+
+    //     if (A1 === rev) {
+    //         document.write(`This is a palindrome number: ${rev}`);
+    //     } else {
+    //         document.write(`This is not a palindrome number: ${A1}`);
+    //     }
+    // }
+
+
+    // let number = Number(prompt("Enter the number:"));
+    // checkPalindrome(number);
+
+
+    //Q6- aramstrong
+//         function checkArmstrong(n) {
+//     let originalNumber = n; 
+//     let sum = 0; 
+
+
+//     while (n > 0) {
+//         let rem = n % 10; 
+//         sum = sum + (rem * rem * rem); 
+//         n = Math.floor(n / 10); 
+//     }
+
+
+//     if (sum === originalNumber) {
+//         document.write("This is an Armstrong number");
+//     } else {
+//         document.write("This is not an Armstrong number");
+//     }
+// }
+
+
+// let number = Number(prompt("Enter the number:"));
+// checkArmstrong(number);
+
+
+//Q7- sum of three digit
+    // function sum(num){
+    //     var sum = 0;
+    //     while( num != 0 ){
+    //         sum += num % 10;
+    //         num = Math.floor(num / 10);
+    //     }
+    //     console.log("sum of digit : " +sum);
+    // }
+
+    // var n =Number(prompt("enter the numbere :"))
+    // sum(n)
+
+    //Q8- rev of three digit
+        // function revNum(num){
+        //     var rev = 0;
+        //     while(num > 0){
+        //         rev = rev * 10 + num % 10;
+        //         num = Math.floor (num /10)
+        //     }
+        //     console.log("reversed number :" +rev);
+        // }
+
+        // var n = Number(prompt("enter the number :"))
+        // revNum(n)
+    </script>
+</body>
+</html>
